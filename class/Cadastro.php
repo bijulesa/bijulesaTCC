@@ -51,6 +51,7 @@ class Cadastro extends Base
 		}
 		$resultado = self::resultado_login();
 		return $resultado;
+		die();
 	}
 
 	public function sair(){
